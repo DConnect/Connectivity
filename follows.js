@@ -180,10 +180,10 @@
 									yAxis.render();
 									
 									//Abilita Legenda
-									 var legend = new Rickshaw.Graph.Legend( {
-										 graph: graph,
-										 element: document.getElementById('legend')
-  									} );
+								//	 var legend = new Rickshaw.Graph.Legend( {
+								//		 graph: graph,
+								//		 element: document.getElementById('legend')
+  								//	} );
 									
 
 									// Enable Datapoint Hover Values
