@@ -178,6 +178,13 @@
 										ticksTreatment: ticksTreatment
 									});
 									yAxis.render();
+									
+									//Abilita Legenda
+									 var legend = new Rickshaw.Graph.Legend( {
+										 graph: graph,
+										 element: document.getElementById('legend')
+  									} );
+									
 
 									// Enable Datapoint Hover Values
 									var hoverDetail = new Rickshaw.Graph.HoverDetail({
